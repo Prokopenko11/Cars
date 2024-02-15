@@ -1,0 +1,650 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; }
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.header_content{
+	width: 1200px;
+	margin: auto;
+}
+.header {
+	height: 700px;
+	background: url(https://gitlab.com/Prokopenko11/images/-/raw/main/headerBackground.png) no-repeat;
+	background-color: #21062A;
+	padding: 47px 0 0 0;
+	position: relative;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	margin: 0 0 120px 0;
+	display: flex;
+	flex-direction: column;
+}
+.upper_line{
+	width: 80px;
+	height: 3px;
+	margin: 0 0 5px 0;
+}
+.lower_line{
+	width: 80px;
+	height: 3px;
+	margin: 5px 0 0 0;
+}
+.telephone {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	color: #ffffff;
+}
+.header_body {
+
+}
+.header_title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 72px;
+	color: #ffffff;
+	margin: 0 0 20px 0;
+}
+.header_offer {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+.header_services {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300px;
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.header_button{
+	background-color: #5A0D67;
+	width: 249px;
+	height: 49px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+.header_button p{
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300px;
+}
+.header_button p:hover{
+	background-color: #5A0D67;
+	color:  #5A0D67;
+}
+.social_networks {
+	display: flex;
+	padding-left: 50px;
+	margin-bottom: 63px;
+}
+.instagram,
+.telegram,
+.wats_app {
+	margin-right: 10px;
+}
+.facebook {
+}
+.rectangle {
+	background-color: #C4C4C4;
+	width: 55px;
+	height: 61px;
+	margin-left: 80px;
+}
+.big_car{
+	position: absolute;
+	top: 438px;
+	left: 586px;
+}
+.services {
+	width: 1200px;
+	margin: auto;
+	height: 920px;
+}
+.services_title {
+	margin: 300px 0 0 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.services_title img{
+	margin: 25px 0 0 5px;
+}
+.services_wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.services_left{
+	width: 510px;
+}
+.why {
+}
+.why_from_USA {
+	
+}
+.why_from_USA_title {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #5A0D67;
+	margin-bottom: 10px;
+}
+.upper_text {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #2C2B2B;
+	margin-bottom: 10px;
+}
+.lower_text {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #2C2B2B;
+	margin-bottom: 65px;
+}
+.why_low_price {
+
+}
+.why_low_price p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #2C2B2B;
+	margin-bottom: 50px;
+}
+.why_low_price_title {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #5A0D67;
+	margin-bottom: 10px;
+}
+.services_button {
+	background-color: #5A0D67;
+	width: 249px;
+	height: 49px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.services_button p{
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300px;
+}
+.services_button p:hover{
+	background-color: #5A0D67;
+	color:  #5A0D67;
+}
+.tip span{
+	font-family: 'Oswald';
+	font-weight: 300;
+	line-height: 21px;
+	color: #C4C4C4;
+}
+.service_button_tip{
+	display: flex;
+	width: 350px;
+	justify-content: space-between;
+	align-items: center;
+}
+.tip_line img{
+	margin-top: 7px;
+	margin-right: 10px ;
+}
+.services_right{
+	width: 500px;
+}
+.services_list {
+	border: 1px solid #C4C4C4;
+	width: 450px;
+	height: 75px;
+	margin-bottom: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.list_number {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: #5A0D67;
+	transform: rotate(-90deg);
+	padding-left: 20px;
+	margin-top: 20px;
+	color: #C4C4C4;
+}
+.list_content{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+}
+.list_title {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 36px;
+	color: #2C2B2B;
+	margin-bottom: -5px;
+}
+.list_text {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #2C2B2B;
+}
+.services_list:hover{
+	width: 500px;
+	border: 2px solid #5A0D67;
+}
+.services_list:hover > .list_number{
+	color: #5A0D67;
+}
+.services_list:hover > .list_content {
+}
+.list_content:hover > .list_title{
+	color: #5A0D67;
+}
+.about_us {
+	width: 1200px;
+	margin: auto;
+	height: 706px;
+	
+}
+.about_us_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.about_us_image {
+}
+.about_us_right {
+	width: 779px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about_us_title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: #21062A;
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.about_us_title img{
+	margin-left: 10px;
+}
+.about_us_content {
+	background-color: #21062A;
+	width: 779px;
+	height: 507px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.number {
+	width: 316px;
+	height: 420px;
+	padding-top: 20px;
+}
+.number_title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.number_line {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	line-height: 36px;
+	color: #ffffff;
+	margin-top: -15px;
+}
+.number_text {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #C4C4C4;
+	line-height: 27px;
+}
+.our_cars {
+	width: 1200px;
+	margin: auto;
+	height: 601px;
+}
+.our_cars_title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	color: #21062A;
+}
+.our_cars_title img{
+	margin-left: 10px;
+}
+.our_cars_images {
+}
+.infinity {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 390px;
+	height: 350px;
+	border: 1px solid #C4C4C4;
+	align-items: center;
+	padding: 5px 5px 0 5px;
+	margin-right: 8px;
+}
+.model {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	margin-top: 23px;
+	color: #2C2B2B;
+	text-align: center;
+}
+.saving {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #2C2B2B;
+	margin-top: 5px;
+	text-align: center;
+}
+.tesla1 {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 390px;
+	height: 350px;
+	border: 1px solid #C4C4C4;
+	align-items: center;
+	padding: 5px 5px 0 5px;
+	margin-right: 8px;
+}
+.tesla2 {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 390px;
+	height: 350px;
+	border: 1px solid #C4C4C4;
+	align-items: center;
+	padding: 5px 5px 0 5px;
+	margin-right: 8px;
+}
+.infinity:hover{
+	background-color: #5A0D67;
+}
+.infinity:hover > .model{
+	color: #ffffff;
+}
+.infinity:hover > .saving{
+	color: #ffffff;
+}
+.tesla1:hover{
+	background-color: #5A0D67;
+}
+.tesla1:hover > .model{
+	color: #ffffff;
+}
+.tesla1:hover > .saving{
+	color: #ffffff;
+}
+.tesla2:hover{
+	background-color: #5A0D67;
+}
+.tesla2:hover > .model{
+	color: #ffffff;
+}
+.tesla2:hover > .saving{
+	color: #ffffff;
+}
+.our_cars_images .slick-dots{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.our_cars_images .slick-dots button{
+	font-size: 0;
+	width: 50px;
+	height: 1px;
+	padding: 0;
+	border: none;
+	background-color: #C4C4C4;
+}
+.our_cars_images .slick-dots li{
+	margin: 0 10px;
+}
+.our_cars_images .slick-dots li.slick-active button{
+	background-color: #5A0D67;
+	height: 3px;
+}
+.bottom {
+	height: 466px;
+	width: 1200px;
+	margin: auto;
+}
+.bottom_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.bottom_left {
+	width: 240px;
+}
+.contacts {
+	display: flex;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	color: #21062A;
+}
+.contacts img{
+	margin-left: 10px;
+}
+.adress {
+	width: 174px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+.adress_title {
+	color: #5A0D67;
+}
+.adress_text {
+	color: #2C2B2B;
+}
+.timetable {
+	width: 174px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+.timetable_title {
+	color: #5A0D67;
+}
+.timetable_text {
+	color: #2C2B2B;
+}
+.telephone {
+	width: 174px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+}
+.telephone_title {
+	color: #5A0D67;
+}
+.telephone_text {
+	color: #2C2B2B;
+}
+.bottom_right {
+	width: 600px;
+	height: 466px;
+	display: flex;
+	flex-direction: column;
+	background-color: #21062A;
+	align-items: center;
+}
+.bottom_right_title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.bottom_right_title  img{
+	margin-left: 10px;
+}
+.bottom_right input{
+	background-color: transparent;
+	width: 450px;
+	height: 75px;
+	border: 1px solid #C4C4C4;
+	margin-bottom: 12px;
+}
+.bottom_right input::placeholder{
+	color: #C4C4C4;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+}
+.bottom_button {
+	margin-top: 75px;
+	background-color: #5A0D67;
+	width: 249px;
+	height: 49px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bottom_button p{
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300px;
+}
+.bottom_button p:hover{
+	background-color: #5A0D67;
+	color:  #5A0D67;
+}
+.footer {
+	background-color: #21062A;
+}
+.footer_wrapper{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo {
+	padding: 24px 0;
+	display: flex;
+	flex-direction: column;
+}
+.footer_upper_line{
+	width: 80px;
+	height: 3px;
+	margin: 0 0 5px 0;
+}
+.footer_lower_line{
+	width: 80px;
+	height: 3px;
+	margin: 5px 0 0 0;
+}
+.footer_social_networks {
+	padding: 40px 0;
+	display: flex;
+	padding-left: 50px;
+	margin-bottom: 63px;
+}
+.instagram,
+.telegram,
+.wats_app {
+	margin-right: 10px;
+}
+
+.politics {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	padding: 35px;
+}
+.politics p{
+	color: #ffffff;
+}
